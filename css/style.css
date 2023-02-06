@@ -11,7 +11,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--slate-color);
-  background-color: var(--bg-color);
+  background-color: var(--white-color);
 }
 
 ul {
@@ -79,7 +79,7 @@ ul {
 }
 
 .hero {
-  color: var(--navyblue-color);
+  background-color: var(--navyblue-color);
   text-align: center;
 }
 
