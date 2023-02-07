@@ -47,14 +47,13 @@ ul {
   font-size: 16px;
   line-height: 1.58;
   letter-spacing: 0.02em;
-  color: var(--ocean-color);
+  cursor: default;
 }
 
 .header-nav .nav-link:focus {
   font-size: 16px;
   line-height: 1.58;
   letter-spacing: 0.02em;
-  color: var(--ocean-color);
 }
 
 .address .address-link {
@@ -68,14 +67,13 @@ ul {
   font-size: 16px;
   line-height: 1.58;
   letter-spacing: 0.02em;
-  color: var(--ocean-color);
+  cursor: default;
 }
 .address .address-link:focus {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.58;
   letter-spacing: 0.02em;
-  color: var(--ocean-color);
 }
 
 .hero {
@@ -94,6 +92,7 @@ ul {
   background: var(--iris-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  font-family: 'Roboto';
   font-size: 16px;
   line-height: 1.58;
   letter-spacing: 0.04em;
@@ -138,7 +137,7 @@ ul {
 }
 
 .footer {
-  color: var(--navyblue-color);
+  background-color: var(--navyblue-color);
   letter-spacing: 0.02em;
   color: var(--cornflower-color);
 }
