@@ -40,6 +40,7 @@ ul {
   line-height: 1.58;
   letter-spacing: 0.02em;
   color: var(--navyblue-color);
+  text-decoration: none;
 }
 
 .header-nav .nav-link:hover {
@@ -61,6 +62,7 @@ ul {
   line-height: 1.58;
   letter-spacing: 0.02em;
   color: var(--slate-color);
+  text-decoration: none;
 }
 
 .address .address-link:hover {
@@ -68,7 +70,7 @@ ul {
   line-height: 1.58;
   letter-spacing: 0.02em;
   cursor: default;
-}
+  }
 .address .address-link:focus {
   font-weight: 500;
   font-size: 16px;
@@ -100,7 +102,6 @@ ul {
 }
 
 .hero-button:hover {
-  color: var(--ocean-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
