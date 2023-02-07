@@ -138,11 +138,14 @@ ul {
   background-color: var(--cloud-color);
 }
 
-.footer {
+.footer{
   background-color: var(--navyblue-color);
   letter-spacing: 0.02em;
-  color: var(--cornflower-color);
-}
+  }
+
+  .footer .text{
+    color: var(--cornflower-color);
+  }
 .footer-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -153,6 +156,7 @@ ul {
   text-decoration: none;
   color: var(--cloud-color);
 }
+
 /* portfolio */
 .button {
   font-family: 'Roboto';
